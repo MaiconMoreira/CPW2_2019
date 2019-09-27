@@ -1,0 +1,25 @@
+mestre-detalhe  esquema de tela
+
+-sass
+npm i -g sass
+
+src > source > codigo fonte
+
+-nome*
+-telefone*
+-email (opcional)
+-data de nascimento(opcional)
+
+emmet-abreviaçoes/atalhos
+
+jquery.com
+
+https://cdnjs.com/libraries/jquery.mask
+
+
+
+jquery -> $('#nome').val()
+javascript -> document.getelemntbyid('nome').value
+
+
+git

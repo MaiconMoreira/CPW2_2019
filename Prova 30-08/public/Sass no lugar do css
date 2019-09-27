@@ -1,0 +1,47 @@
+Sass no lugar do css
+
+(para instalar o sass) npm i -g sass
+sass exemplo.scss exemplo.css (fazer a converçao pro css pois o browser nao reconhece o sass)
+sass --watch exemplo.scss exemplo.css
+
+sass styles/estilos.scss styles/estilos.css --watch --style=compressed
+
+
+
+
+
+input[id] emmet abreviaçao
+
+<label for="nome">Nome:</label> 
+        <input placeholder="Digite seu nome"    ou placeholder
+        type="text" name="nome" id="nome">
+        <button>Enviar</button>
+
+
+
+ isso em cima eh para estilizar um metodo de criaçao de formulario       
+
+ display inline por padrao, la no scss faça display block para nao ficar in
+
+ conceito de evento e acao:
+ -Evento: remete a aldo instantaneo que ocorre no componente web.( seria o clique em cima do enviar, clique do botao)
+ -Açao: é algo que é executado após a ocorrencia de um evento.
+
+
+ Camel case:
+-mensagem
+-mais de uma palavra
+mensagemUsuario
+
+ minusculo -> lower case
+ maiusculo -> upper case
+
+ -String comprehension
+ -concatenaçao
+
+-Code Smell -> repetiçao de código
+
+livro 
+-Código limpo-para desenvolvedores
+
+let mensagem = nome? //nome tem valor? caso tiver escreve -> caso nao tenha depois dos dois pontos//  ` Olá, ${nome}!`: '';
