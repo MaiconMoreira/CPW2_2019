@@ -8,15 +8,11 @@
     <link rel="stylesheet" href="src/styles/estilos.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script
-        src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous">        
-    </script>
-
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
-
     <title>Agenda</title>
-    
 </head>
 
 <body>
@@ -27,8 +23,7 @@
     </div>
 
     <div id="formularioContato">
-        <form onsubmit="salvarContato(event)"> 
-            
+        <form onsubmit="salvarContato(event)">
             <label for="nome">Nome</label>
             <input required id="nome" name="nome" type="text">
 
@@ -44,11 +39,14 @@
 
             <input type="submit" value="Salvar">
         </form>
+
+        
     </div>
 
+    <div id="listagemContatos"></div>
+    
     <script src="src/js/index.js"></script>
     <script src="src/js/mascaras.js"></script>
-
 </body>
 
-</html> 
+</html>

@@ -22,4 +22,4 @@ jquery -> $('#nome').val()
 javascript -> document.getelemntbyid('nome').value
 
 
-git
+git add .
