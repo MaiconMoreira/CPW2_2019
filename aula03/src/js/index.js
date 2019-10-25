@@ -4,10 +4,34 @@
  */
 var contatos = [
    {
-      nome:'Maicon',
-      telefone: '99 9 99999999',
-      email:'maiconmoreirams@hotmail.com',
+      nome:'Sidney alvares calves',
+      telefone:'(67)9 9287-7374',
+      email:'sidney@email.com',
       dataNascimento:'26/09/1988'
+   },
+   {
+    nome:'Maicon moreira',
+    telefone:'(67)9 9905-7514',
+    email:'maiconmoreirams@hotmail.com',
+    dataNascimento:'26/09/1988'
+   },
+   {
+    nome:'Maicon gordao',
+    telefone:'(67)9 9984-3524',
+    email:'maiconmoreirams@hotmail.com',
+    dataNascimento:'26/09/1988'
+   },
+   {
+    nome:'Maicon gordao',
+    telefone:'(67)9 9984-3524',
+    email:'maiconmoreirams@hotmail.com',
+    dataNascimento:'26/09/1988'
+   },
+   {
+    nome:'Maicon gordao',
+    telefone:'(67)9 9984-3524',
+    email:'maiconmoreirams@hotmail.com',
+    dataNascimento:'26/09/1988'
    }
 ];
 renderizarTabelaContatos();
@@ -134,12 +158,15 @@ function criarCorpoTabela() {
         let celulaNome = document.createElement('td');
         celulaNome.innerText = contatos[i].nome;
         linha.appendChild(celulaNome);
+
         let celulaTelefone = document.createElement('td');
         celulaTelefone.innerText = contatos[i].telefone;
         linha.appendChild(celulaTelefone);
+
         let celulaEmail = document.createElement('td');
         celulaEmail.innerText = contatos[i].email;
         linha.appendChild(celulaEmail);
+        
         let celulaDataNasc = document.createElement('td');
         celulaDataNasc.innerText = contatos[i].dataNascimento;
         linha.appendChild(celulaDataNasc);

@@ -78,13 +78,40 @@ body {
 }
 #listagemContatos table {
   border-collapse: collapse;
-  margin: auto;
-  width: 30%;
+  margin: 0px auto 50px auto;
+  width: 95%;
   font-family: "padrao";
+  text-align: right;
 }
 #listagemContatos table thead {
   background-color: #019875;
   color: white;
+}
+#listagemContatos table tr:hover td {
+  background-color: grey;
+}
+#listagemContatos table tr:nth-child(even) {
+  background-color: #2bb4a9;
+}
+#listagemContatos table tr td {
+  font-size: 90;
+}
+#listagemContatos table tr th, #listagemContatos table tr td {
+  text-align: center;
+  /*
+   regra especifica para a primeira coluna
+  */
+  /*
+   regra especifica para a ultima coluna
+  */
+}
+#listagemContatos table tr th:first-child, #listagemContatos table tr td:first-child {
+  text-align: left;
+  padding-left: 5px;
+}
+#listagemContatos table tr th:last-child, #listagemContatos table tr td:last-child {
+  text-align: right;
+  padding-right: 5px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

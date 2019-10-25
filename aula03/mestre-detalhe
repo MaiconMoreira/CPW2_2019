@@ -19,7 +19,43 @@ https://cdnjs.com/libraries/jquery.mask
 
 
 jquery -> $('#nome').val()
-javascript -> document.getelemntbyid('nome').value
+javascript -> document.getElementById('nome').value
 
 
+
+vetor = array = lista
+
+array = list
+
+===========================
 git add .
+
+se você está usando a máquina do lab:
+git config --glabal user.name "Seu nome"
+git config --global user.email seuemail@email.com
+
+git commit -m "Renderizando a tabela"
+git push origin master
+
+
+o texto dentro do nome da coluna fica dentro da tag th
+o texto dentro das celular de dados do corpo da tabela
+fica dentro da tag td
+
+em uma tabela criada de forma CORRETA,tanto a tag tf quanto a tag th fica dentro de uma tag tr
+
+tr  
+    th th th th 
+
+tr
+    td td td td    
+
+tr th, tr td{
+    text-align: center;
+}    
+
+    tr th:first_child, tr td:first_child{
+        text-align: left;
+    }
+ 
+    
