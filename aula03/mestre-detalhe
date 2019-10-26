@@ -37,6 +37,10 @@ git config --global user.email seuemail@email.com
 git commit -m "Renderizando a tabela"
 git push origin master
 
+git config --global --unset-all user.name (apaga o nome do usuário)
+$ git config --global --unset user.email (apaga o email do usuário)
+
+
 
 o texto dentro do nome da coluna fica dentro da tag th
 o texto dentro das celular de dados do corpo da tabela
@@ -57,5 +61,35 @@ tr th, tr td{
     tr th:first_child, tr td:first_child{
         text-align: left;
     }
- 
-    
+
+funçao anonima > funçao sem nome    
+
+function fazAlgumaCoisa(contato){
+
+}
+
+versao arrow function
+
+fazAlgumacoisa = contato => {
+
+}
+
+outro EX:
+contatos.forEach(function(contato){
+
+})
+
+funçao arrow function:
+contatos.forEach(contato =>{
+
+})
+
+
+contatos.forEach(function(contato){
+            contato.nome = 'Sidney';    //so exista ali dentro e quando acabar todo trabalho for each ela se perde
+        }); 
+é a (quase) mesma oisa que fazer isto:
+
+for(let i = 0;i <contatos.length;i++)
+    contatos[i].nome = 'Sidney'
+;
